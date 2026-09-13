@@ -24,7 +24,7 @@ nav a:hover {
 
 #main-title {
     text-align: center;
-    color: #333;
+    color: #768300;
 }
 
 .profile-card {
@@ -53,9 +53,17 @@ section {
 
 h2 {
     color: #444;
+    font-family: 'Courier New', monospace;
+    margin-top: 0;
 }
 
 p {
     font-size: 16px;
     line-height: 1.5;
+    font-family: Times New Roman, serif;
+}
+li{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Times New Roman, serif;
 }
