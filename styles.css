@@ -16,6 +16,9 @@ nav a {
     color: white;
     text-decoration: none;
     margin-right: 20px;
+    position: relative;
+    left: 40%;
+    transform: translateX(-50%);
 }
 
 nav a:hover {
@@ -24,7 +27,7 @@ nav a:hover {
 
 #main-title {
     text-align: center;
-    color: #333;
+    color: #fffcfc;
 }
 
 .profile-card {
