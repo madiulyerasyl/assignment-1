@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-color: #F0F8FF;
+    color: #222;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+.navbar a {
+    color: rgb(4, 4, 4);
+    text-decoration: none;
+    margin: 15px;
+}
+
+.navbar a:hover {
+    color: #aaaaaa;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+}
+
+.portrait {
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto 30px;
+    border-radius: 10px;
+    border: 3px solid #333;
+    box-shadow: 0 4px 10px #999;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    color: #DEB887;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.content a {
+    color: #444;
+}
+
+.content a:hover {
+    color: #777;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #6d5220;
+    color: white !important;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
