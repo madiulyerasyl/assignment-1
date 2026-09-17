@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="../index.html">Task 1</a>
+        <a href="../task2/index.html">Task 2</a>
+        <a href="../task3/index.html">Task 3</a>
+        <a href="index.html">Task 4</a>
+    </nav>
+
+    <h1 id="main-title">Student Grades</h1>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+        </tr>
+
+        <tr>
+            <td>Nurtas</td>
+            <td>Web Technologies</td>
+            <td>90</td>
+        </tr>
+
+        <tr class="highlight">
+            <td>Yerdan</td>
+            <td>Database</td>
+            <td>95</td>
+        </tr>
+
+        <tr>
+            <td>Dauren</td>
+            <td>Operating Systems</td>
+            <td>85</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Average Grade</td>
+            <td>90</td>
+        </tr>
+    </table>
+
+    <div class="form-container">
+
+        <h2>Feedback Form</h2>
+
+        <form>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="role">Role:</label>
+            <select id="role">
+                <option>Student</option>
+                <option>Teacher</option>
+                <option>Other</option>
+            </select>
+
+            <p>Do you like this page?</p>
+
+            <input type="radio" id="yes" name="answer">
+            <label for="yes">Yes</label>
+
+            <input type="radio" id="no" name="answer">
+            <label for="no">No</label>
+
+            <label for="comments" class="comments-label">Comments:</label>
+            <textarea id="comments" rows="5"></textarea>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
